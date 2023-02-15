@@ -92,6 +92,8 @@ section {
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    & li { font-size: 16px !important }
   }
 }
 
@@ -114,7 +116,7 @@ section {
 }
 
 .Work__desc {
-  white-space: pre-line;
+/*  white-space: pre-line;*/
 }
 
 /*@media print {
