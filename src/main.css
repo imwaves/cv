@@ -21,6 +21,7 @@ html {
 }
 
 li,
+.u-nobreak,
 .Info > div {
   break-inside: avoid;
   -webkit-break-inside: avoid;
