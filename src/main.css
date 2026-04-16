@@ -139,6 +139,14 @@ ul.GeneralList {
   font-weight: 500;
 }
 
+h1 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  color: var(--blue);
+  text-transform: uppercase;
+}
+
 h2 {
   font-weight: 500;
   font-size: 24px;
@@ -157,7 +165,7 @@ h2 {
 
   & img {
     width: 100%;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
   }
 
   & li {
