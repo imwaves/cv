@@ -186,3 +186,15 @@ h2 {
 @media print {
   #root { padding: 0 }
 }
+
+.OwnProjs {
+  .Work__date {
+    margin-bottom: 6px;
+  }
+
+  .Work__date:last-child {
+    margin-top: 6px;
+  }
+
+  .GeneralList { gap: 2px}
+}
