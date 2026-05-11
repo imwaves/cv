@@ -12,11 +12,22 @@
   <main>
     <header class="Header" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 32px;">
       <div>
-        <div class="Header__name">Vladislav Pavlov</div>
-        <div class="Header__title" style="margin-top: 16px;">Creative Developer<br>Graphics Programmer</div>
+        <div class="Header__name">Graphics & Interactions Programmer<br>Creative Developer<br>AR/VR/XR</div>
+        <div class="Header__title" style="margin-top: 16px;">Vladislav Pavlov</div>
       </div>
+
+      <ul class="Header__contacts">
+        <li><a href="tel:+33745649371">+33 745649371</a></li>
+        <li><a href="mailto:vladislav.pavlov@artfx.fr">vladislav.pavlov@artfx.fr</a></li>
+        <li><a href="https://github.com/ish-">github.com/ish-</a></li>
+        <li><a href="https://vladpavlov.xyz">www.vladpavlov.xyz</a></li>
+        <li><a href="https://www.linkedin.com/in/vlad-pavlov-54624196/">in/vlad-pavlov</a></li>
+        <!-- <li><a href="https://instagram.com/__ish.to.ish__">instagram.com/__ish.to.ish__</a></li> -->
+        <!-- <li><a href="https://t.me/vlad_ish">t.me/vlad_ish</a></li> -->
+
+      </ul>
     </header>
-    <div class="About">Engineer and technical artist with over 3 years in creating new media installations, complex systems, AR/VR experiences and more then 10 years of experience in creating high-performance applications including GPU hardware-accelerated visuals, system design, UI/UX prototyping, API integration and deployment.</div>
+    <div class="About">Engineer and technical artist with over 3 years in creating new media installations, complex systems, AR/VR/XR experiences and more then 10 years of experience in creating high-performance applications including GPU hardware-accelerated visuals, system design, UI/UX prototyping and APIs integration.</div>
 
     <section class="Works">
       <h1>Work experience</h1>
@@ -24,31 +35,27 @@
 
       <ul class="GeneralList">
         <li class="Work">
-          <div class="Work__title">Graphics Software Developer</div>
-          <div class="Work__date">November 2025 — currently</div>
-          <div class="Work__company"><b>Clideo ltd.</b>, Nicosia, Cyprus <a href="https://clideo.com/">clideo.com</a></div>
+          <div class="Work__title">Graphics Software Developer (remote) <div class="Work__date">Nov 2025 →</div></div>
+          <div class="Work__company"><b>Clideo ltd.</b>, <a href="https://clideo.com/editor">clideo.com/editor</a></div>
           <div class="Work__desc">
-            Core developer building a video editing platform <a href="https://clideo.com/editor">clideo.com/editor</a><br>
-            - Developed real-time dynamic GPU rendering pipeline with batching processing.<br>
-            - Creating vast library of custom GLSL shaders for complex transition effects and motion blur.<br>
-            - Engineered a pipeline of seamless cross-platform usage written once shaders on iOS app (Apple Metal) and backend rendering (FFMPEG-compatible GLSL) via SPIR-V.
+            - Developed real-time GPU rendering pipeline for effects and motion blur.<br>
+            - Creating vast library of custom GLSL shaders for complex transition effects.<br>
+            - Engineered a pipeline of seamless cross-platform usage written once GLSL shaders on iOS app (Metal) and backend rendering (FFMPEG) via SPIR-V.
           </div>
         </li>
 
         <li class="Work">
-          <div class="Work__title">Creative Developer</div>
-          <div class="Work__date">October 2023 — currently</div>
-          <div class="Work__company"><b>Kargat Studio</b>, Dubai, UAE <a href="https://kargat.studio/">kargat.studio</a></div>
+          <div class="Work__title">Creative Developer (remote) <div class="Work__date">Dec 2022 →</div></div>
+          <div class="Work__company"><b>Kargat Studio</b>, <a href="https://kargat.studio/">kargat.studio</a></div>
           <div class="Work__desc">
             - Developing interactive and kinetic installations for exhibitions and high-profile events.<br>
-            - Creating real-time generative visuals that dynamically react to audience interactions via advanced sensor integration (LiDAR, depth cameras), audio-reactivity, and directorial input.<br>
-            - Executing complex projection mapping and precise laser mapping for immersive spatial environments.<br>
-            - Programming motors, custom hardware, and lighting systems (DMX/Art-Net) to synchronize physical kinetic elements with digital content.<br>
+            - Creating real-time generative visuals that dynamically react to audience interactions via advanced sensor integration and audio-reactivity.<br>
+            - Executing complex projection mapping and precise laser mapping for immersive spatial environments and lighting systems (DMX/Art-Net).<br>
             - Utilizing TouchDesigner, Unreal Engine, and advanced web technologies (WebGL, WebRTC) to bridge physical and digital experiences.
           </div>
         </li>
 
-        <li style="list-style: none;">.. earlier roles and experience are detailed below</li>
+        <!-- <li style="list-style: none;">.. earlier roles and experience are detailed below</li> -->
       </ul>
     </section>
 
@@ -78,53 +85,43 @@
     </section> -->
 
     <section class="OwnProjs">
-      <h2>Projects of last years:</h2>
+      <!-- <h2>Projects of last years:</h2> -->
 
       <ul class="GeneralList">
         <li class="Work">
-          <div class="Work__company"><b>F*ck This Job</b></div>
-          <div class="Work__date">Unreal Engine, C++</div>
+          <div class="Work__company"><b>Jet Dream</b> <div class="Work__date">Unreal Engine, MediaPipe</div></div>
           <div class="Work__desc">
-            FPS shooter in power fantasy setting.
-            Co-leaded and worked on an AI system that leverages behavior and state trees for patrolling, collecting props, attacking, and fleeing. I elegantly implemented level and checkpoint management using Unreal's built-in Level Streaming system. Additionally, I built a DebugMenu — a quality-of-life runtime tool packed with a bunch of useful features.
+            A flying FPS behavior prototype that implements smooth hover control using MediaPipe AR toolkit head tracking and hands mapping via camera.
           </div>
-          <div class="Work__date">September 2025</div>
         </li>
 
         <li class="Work">
-          <div class="Work__company"><b>Jet Dream</b></div>
-          <div class="Work__date">Unreal Engine, MediaPipe</div>
-          <div class="Work__desc">
-            Jetpack behavior prototype that implements smooth hovering, along with visual effects. Character is controled using MediaPipe AR toolkit head camera tracking within a mysterious environment.
-          </div>
-          <div class="Work__date">January 2026</div>
-        </li>
-
-        <li class="Work">
-          <div class="Work__company"><b>IAM Game Engine</b></div>
-          <div class="Work__date">C++, SDL3, Bullet, ImGUI, Vulkan</div>
+          <div class="Work__company"><b>IAM Game Engine</b><div class="Work__date">C++, SDL3, Bullet, ImGUI, Vulkan</div></div>
           <div class="Work__desc">
             Developed minimalistic, cross-platform game engine.
           </div>
-          <div class="Work__date">January 2026</div>
         </li>
 
         <li class="Work">
-          <div class="Work__company"><b>UE Feedback toolkit / Datamosh</b></div>
-          <div class="Work__date">Unreal Engine</div>
+          <div class="Work__company"><b>StreamDiffusion VR</b><div class="Work__date">TouchDesigner, StreamDiffusion</div></div>
           <div class="Work__desc">
-            Got deeper into UE post-process VFX and created a library of components. This toolkit leverages velocity, depth, and stencil buffers to achieve effects like visual trails, cached repeats, and datamoshing.
+            Wireless realtime streaming image generation AR/VR experience.
           </div>
-          <div class="Work__date">September 2025</div>
         </li>
 
         <li class="Work">
-          <div class="Work__company"><b>StreamDiffusion VR</b></div>
-          <div class="Work__date">TouchDesigner, StreamDiffusion, WebRTC</div>
+          <div class="Work__company"><b>UE VFX Feedback toolkit / Datamosh</b><div class="Work__date">Unreal Engine</div></div>
           <div class="Work__desc">
-            Wireless realtime AI AR/VR experience.
+            Library of components and shaders that leverages sequence of render targets, velocity, depth, and stencil buffers to achieve effects like visual trails, cached repeats, and datamosh.
           </div>
-          <div class="Work__date">April 2025</div>
+        </li>
+
+        <li class="Work">
+          <div class="Work__company"><b>F*ck This Job</b> <div class="Work__date">Unreal Engine, C++</div></div>
+          <div class="Work__desc">
+            FPS shooter.
+            Worked on an AI state trees for patrolling, collecting props, attacking etc; implemented level and checkpoint management using built-in LevelStreaming system; built a DebugMenu — a quality-of-life runtime tool packed with a bunch of useful features.
+          </div>
         </li>
 
         <li class="Work">
@@ -133,16 +130,13 @@
           <div class="Work__desc">
             RTS prototype featuring an optimized A-star pathfinding algorithm. The tricky part was saving significant CPU time by caching paths within order groups and sharing them across multiple agents.
           </div>
-          <div class="Work__date">November 2024</div>
         </li>
 
         <li class="Work">
-          <div class="Work__company"><b>MetaHuman AI Assistant</b></div>
-          <div class="Work__date">Unreal Engine, TouchDesigner, Python</div>
+          <div class="Work__company"><b>MetaHuman AI Assistant</b><div class="Work__date">Unreal Engine, Python</div></div>
           <div class="Work__desc">
-            MetaHuman AI Assistant providing real-time speech dialogue, carring out simple tasks, utilizing public APIs and UE.
+            Real-time speech dialogue, carring out simple tasks this OpenAI APIs and UE.
           </div>
-          <div class="Work__date">May 2024</div>
         </li>
         
         <li class="Work">
@@ -151,53 +145,30 @@
           <div class="Work__desc">
             RxTx is an installations that anticipate the exchange of information with other forms of life in the universe as a way to overcome technological collapse. Synced together 4k of LEDs on 10m mast, laser, audio via radio.
           </div>
-          <div class="Work__date">May 2024</div>
         </li>
         
         <li class="Work">
           <div class="Work__company"><b>Hexucinatory</b> @ DigitalDetox exhibition</div>
           <div class="Work__date">TouchDesigner, Ableton, 2 kinects, 4 projectors, mirrored room</div>
           <div class="Work__desc">
-            Couple of interpolated spaces where digital technologies offer not a daily information stream, but a form of meditative communication and flow. A deprivation space controlled by the position and behavior of the person within it. The installation in the space is a hexagonal mirrored room that multiplies generative environment.
+            A deprivation mirror space controlled by the position and behavior of the person within its generative environment.
           </div>
-          <div class="Work__date">February 2023</div>
         </li>
 
         <li class="Work">
           <div class="Work__company"><b>Initiation Ritual</b>, Wild Jam #50, <a href="https://itch.io/jam/godot-wild-jam-50/rate/1758927">itch.io</a></div>
           <div class="Work__date">Godot</div>
           <div class="Work__desc">
-            Worked on specific visual atmosphere of antiquity, with concave rock paintings protruding on a relief stone wall; exciting, natural camera movements, as if someone were actually sitting in front of the wall; distinct moons and sun rays; fog, smoke, and cricket particle systems, sound effects that alter the atmosphere and mood of the scenes. 2nd and 4th places in graphics and sound rankings of 74 teams.
+            Ligthing and 3d visuals, sound effects. 2nd and 4th places in graphics and sound rankings of 74 teams.
           </div>
-          <div class="Work__date">October 2023</div>
         </li>
-
-        <li class="Work">
-          <div class="Work__company"><b>Interactive environment for TODA presentation</b></div>
-          <div class="Work__date">December 2025</div>
-        </li>
-
-        <li class="Work">
-          <div class="Work__company"><b>Library and Cultural Center “Nota”</b>, Saint Petersburg, Russia</div>
-          <div class="Work__desc">
-            Web application for real-time interaction with visual installations.
-          </div>
-          <div class="Work__date">July 2023</div>
-        </li>
-
-        <li class="Work">
-          <div class="Work__company"><b>IQOS Together X</b></div>
-          <div class="Work__desc">
-            Web application for real-time interaction with visual installations.
-          </div>
-          <div class="Work__date">May 2023</div>
-        </li>
+        ...
 
       </ul>
     </section>
 
     <secion class="Works">
-      <h1>Earlier work experience</h1>
+      <h1>Earlier hire experience</h1>
       <ul class="GeneralList"  style="display: flex; flex-direction: column;">
         <li class="Work">
           <div class="Work__title">Frontend Developer (remote)</div>
@@ -271,21 +242,10 @@
   <aside class="Info">
     <img src="./assets/cv-ava2.jpg" alt="">
 
-    <div class="Info__contact">
+    <!-- <div class="Info__contact">
       <h2>Contacts</h2>
-      <ul>
-        <li>Paris, France</li>
-        <!-- <li>Russian</li> -->
-        <li><a href="tel:+33745649371">+33 745649371</a></li>
-        <li><a href="mailto:vladislav.pavlov@artfx.fr">vladislav.pavlov@artfx.fr</a></li>
-        <li><a href="https://github.com/ish-">github.com/ish-</a></li>
-        <li><a href="https://vladpavlov.xyz">www.vladpavlov.xyz</a></li>
-        <li><a href="https://www.linkedin.com/in/vlad-pavlov-54624196/">in/vlad-pavlov</a></li>
-        <!-- <li><a href="https://instagram.com/__ish.to.ish__">instagram.com/__ish.to.ish__</a></li> -->
-        <!-- <li><a href="https://t.me/vlad_ish">t.me/vlad_ish</a></li> -->
-
-      </ul>
-    </div>
+      
+    </div> -->
 
     <!-- <div class="Info__dels">
       <h2>Deliverables</h2>
@@ -301,46 +261,43 @@
     </div> -->
 
     <div class="Info__techs">
-      <h2>Techs</h2>
+      <h2>Skills</h2>
       <ul>
-        <li>Unreal Engine / C++</li>
+        <li>ENGINES: UnrealEngine, TouchDesigner, Godot, Unity</li>
+        <li>LANGS: C++, GLSL/HLSL, Python, TypeScript</li>
+        <li>LIBS: SDL, ImGUI, Bullet, Three</li>
+        <li>VERSIONS: Git, Perforce</li>
+        <li>Compute Shaders, Multithreading, Procedural Generation, AR/VR/XR, MediaPipe, Web Techs, Kinect</li>
+        <li>Vulkan, OpenGL, Metal</li>
+        <li>Projectors/Lasers/LED Mapping, Multimedia Synchranization, Hardware Integration</li>
+        <li>Ableton, Bitwig</li>
+        <li>LANGS: English B2, French A2, Russian native</li>
+        <!-- <li>Unreal Engine / C++</li>
         <li>TouchDesigner / Python</li>
         <li>GLSL / HLSL</li>
         <li>Git / Perforce</li>
-        <li>Web Technologies</li>
+        <li>Web Technologies</li> -->
       </ul>
     </div>
 
     <div>
-      <h2>Education:</h2>
+      <h2>Education</h2>
 
       <ul class="GeneralList">
         <li>
-          <div style="display: flex; flex-direction: column; gap: 8px;">
-            <span style="font-size: 16px; font-weight: 500;">Master in Game Programming</span>
-            <span style="color: #565656; font-weight: 500;">ARTFX</span>
-            <span style="font-size: 14px; color: grey; text-transform: uppercase; margin-top: -8px;
-">2026, Montpellier, France</span>
+          <div style="display: flex; flex-direction: column; gap: 2px;">
             RNCP 7
+            <span style="">Master in Game Programming</span>
+            <span style="color: #565656;">2026, ARTFX - Montpellier</span>
           </div>
         </li>
         <li>
-          <div style="display: flex; flex-direction: column; gap: 8px;">
-            <span style="font-size: 16px; font-weight: 500;">Software Engineer</span>
-            <span style="color: #565656; font-weight: 500;">Astrakhan State University</span>
-            <span style="font-size: 14px; color: grey; text-transform: uppercase; margin-top: -8px;
-  ">2011, Astrakhan, Russia</span>
-            Bachelor 3
+          <div style="display: flex; flex-direction: column; gap: 2px;">
+            Bachelor
+            <span style="">Bac+3 Information Technologies</span>
+            <span style="color: #565656;">2011, Astrakhan State University</span>
           </div>
         </li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Languages</h2>
-      <ul>
-        <li>English B2</li>
-        <li>Russian native</li>
       </ul>
     </div>
 
