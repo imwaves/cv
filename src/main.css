@@ -121,7 +121,7 @@ section {
 ul.GeneralList {
   gap: 12px;
 
-  & li { font-size: 12px !important }
+  /* & li { font-size: 12px !important } */
 }
 
 .Work__title {
